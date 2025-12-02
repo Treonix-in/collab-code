@@ -1,0 +1,56 @@
+{
+  "rules": {
+    "sessions": {
+      // Allow reading the entire sessions list
+      ".read": true,
+      // Allow write at root level for deletion (admin operations)
+      ".write": true,
+      
+      "$sessionId": {
+        // Anyone can read individual sessions (needed for candidates to join)
+        ".read": true,
+        
+        // Session creation, modification and deletion rules
+        ".write": true,
+        
+        // Structure validation
+        ".validate": "$sessionId.matches(/^[0-9]{6}$/)",
+        
+        "users": {
+          "$userId": {
+            // Users can only write their own data
+            ".write": true,
+            ".validate": "newData.hasChildren(['name', 'timestamp'])"
+          }
+        },
+        
+        "firepad": {
+          // Anyone in the session can edit code
+          ".write": true
+        },
+        
+        "terminated": {
+          // Only allow setting terminated flag, not unsetting
+          ".write": "!data.exists() && newData.child('terminated').val() === true"
+        },
+        
+        "created": {
+          // Timestamp can only be set once
+          ".write": "!data.exists()"
+        },
+        
+        "createdBy": {
+          // Creator can only be set once
+          ".write": "!data.exists()"
+        },
+        
+        "interviewerNotes": {
+          // Only authenticated users (interviewers) can read/write notes
+          ".read": "auth != null || root.child('sessions').child($sessionId).child('createdBy').val() === 'Interviewer'",
+          ".write": "auth != null || root.child('sessions').child($sessionId).child('createdBy').val() === 'Interviewer'",
+          ".validate": "newData.hasChildren(['content', 'updatedAt', 'createdBy'])"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment Variables - NEVER COMMIT THESE
+.env
+.env.local
+.env.production
+.env.development
+.env.example.filled
+*.env
+
+# Firebase
+firebase-admin-key.json
+serviceAccountKey.json
+firebase-debug.log
+.firebase/
+*.serviceaccount.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production builds
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# Security - CRITICAL
+*.pem
+*.key
+*.cert
+*.crt
+auth.js
+credentials.json
+secrets.json
+private-keys/
+
+# Backups
+*.backup
+*.bak
+
+# Deployment
+.vercel
+.netlify
+.amplify
+
+# Local development
+.local/
+local-data/
+
+# System files
+Thumbs.db
+.Spotlight-V100
+.Trashes
