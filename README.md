@@ -2,7 +2,7 @@
 
 ### Real-time Collaborative Code Editor for Technical Interviews & Pair Programming
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 [![Node](https://img.shields.io/badge/node-%3E%3D16.0.0-green)](package.json)
 [![Firebase](https://img.shields.io/badge/firebase-realtime-orange)](https://firebase.google.com)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/humancto/CollabCode)
@@ -10,11 +10,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/humancto/CollabCode)
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/humancto/CollabCode?style=social" alt="Stars">
-  <img src="https://img.shields.io/github/forks/humancto/CollabCode?style=social" alt="Forks">
-  <img src="https://img.shields.io/github/watchers/humancto/CollabCode?style=social" alt="Watchers">
-</p>
 
 <p align="center">
   <strong>A secure, production-ready platform for conducting technical interviews and pair programming sessions.</strong><br>
@@ -134,7 +129,7 @@ Deploy your own instance in seconds:
 
 ```bash
 # Clone the repository
-git clone https://github.com/humancto/CollabCode.git
+git clone https://github.com/treonix.in/CollabCode.git
 cd CollabCode
 
 # Install dependencies
@@ -314,68 +309,6 @@ APP_DOMAIN=https://your-domain.com
 4. Generate service account key
 5. Update `lib/firebase-sdk.js` with your config
 
-## 🌟 Success Stories
-
-> "CollabCode transformed our hiring process. Setup took 5 minutes, and candidates love the clean interface."  
-> — **Sarah Chen**, Engineering Manager at TechCorp
-
-> "Finally, a collaborative editor that just works. No complex setup, no accounts, just pure functionality."  
-> — **Mike Johnson**, Senior Developer
-
-> "We've conducted over 80 interviews using CollabCode. The real-time sync is flawless!"  
-> — **Emily Rodriguez**, Tech Lead
-
-## 📊 Stats & Metrics
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Interviews%20Conducted-10%2C000%2B-brightgreen?style=for-the-badge" alt="Interviews">
-  <img src="https://img.shields.io/badge/Active%20Users-1%2C000%2B-blue?style=for-the-badge" alt="Users">
-  <img src="https://img.shields.io/badge/Languages%20Supported-16%2B-orange?style=for-the-badge" alt="Languages">
-  <img src="https://img.shields.io/badge/Uptime-99.9%25-green?style=for-the-badge" alt="Uptime">
-</p>
-
-## 🤝 Contributing
-
-We love contributions! See our [Contributing Guide](CONTRIBUTING.md) for details.
-
-### How to Contribute
-
-1. 🍴 Fork the repository
-2. 🌿 Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. 💻 Make your changes
-4. ✅ Run tests (`npm test`)
-5. 📝 Commit (`git commit -m 'Add AmazingFeature'`)
-6. 📤 Push (`git push origin feature/AmazingFeature`)
-7. 🎉 Open a Pull Request
-
-### Good First Issues
-
-Looking for a place to start? Check out our [good first issues](https://github.com/humancto/CollabCode/labels/good%20first%20issue)!
-
-## 🗺️ Roadmap
-
-### Version 1.1 (Q1 2025)
-- [ ] Built-in video/audio calling
-- [ ] AI-powered code suggestions
-- [ ] Custom problem sets
-- [ ] Team collaboration features
-
-### Version 1.2 (Q2 2025)
-- [ ] Mobile application
-- [ ] IDE plugins (VS Code, IntelliJ)
-- [ ] Advanced analytics dashboard
-- [ ] White-label solution
-
-### Version 2.0 (Q3 2025)
-- [ ] AI interview assistant
-- [ ] Automated skill assessment
-- [ ] Integration with ATS systems
-- [ ] Enterprise features
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - [ACE Editor](https://ace.c9.io/) - The high performance code editor
@@ -383,37 +316,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Piston](https://github.com/engineer-man/piston) - Code execution engine
 - [Vercel](https://vercel.com/) - Deployment and serverless functions
 
-## 💬 Support & Community
-
-<p align="center">
-  <a href="https://discord.gg/opencollab">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-  </a>
-  <a href="https://twitter.com/opencollab">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
-  </a>
-  <a href="https://github.com/humancto/CollabCode/discussions">
-    <img src="https://img.shields.io/badge/GitHub-Discussions-181717?style=for-the-badge&logo=github&logoColor=white" alt="Discussions">
-  </a>
-</p>
-
-- 📧 **Email:** support@opencollab.dev
-- 💬 **Discord:** [Join our community](https://discord.gg/opencollab)
-- 🐛 **Issues:** [Report bugs](https://github.com/humancto/CollabCode/issues)
-- 💡 **Ideas:** [Feature requests](https://github.com/humancto/CollabCode/discussions/categories/ideas)
-
----
-
-<p align="center">
-  <strong>⭐ Star us on GitHub — it helps!</strong><br>
-  Made with ❤️ by <a href="https://www.humancto.com">HumanCTO</a>
-</p>
-
-<p align="center">
-  <a href="https://www.buymeacoffee.com/humancto">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee">
-  </a>
-</p>
 
 <p align="center">
   <a href="#opencollab-">Back to top ⬆️</a>
