@@ -129,7 +129,7 @@ Deploy your own instance in seconds:
 
 ```bash
 # Clone the repository
-git clone https://github.com/treonix.in/CollabCode.git
+git clone https://github.com/Treonix-in/collab-code.git
 cd CollabCode
 
 # Install dependencies
